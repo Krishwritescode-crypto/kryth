@@ -1,0 +1,45 @@
+KRYTH Language Syntax Guide v2.0
+
+Available Commands:
+
+1. diff <expression>
+   → Differentiates the expression w.r.t. x
+   Example: diff x**2 + 2*x
+
+2. int <expression>
+   → Integrates the expression w.r.t. x
+   Example: int x**2 + 1
+
+3. log <expression>
+   → Returns natural log (ln) of expression
+   Example: log x + 1
+
+4. sin / cos / tan <expression>
+   → Applies trigonometric functions
+   Example: sin x
+
+5. eval <expression> <value>
+   → Evaluates the expression by substituting x = value
+   Example: eval x**2 + 3*x 2
+
+6. expand <expression>
+   → Expands an algebraic expression
+   Example: expand (x + 2)**2
+
+7. factor <expression>
+   → Factors an expression
+   Example: factor x**2 + 4*x + 4
+
+8. simplify <expression>
+   → Simplifies an expression
+   Example: simplify (x**2 + 2*x + 1)/(x + 1)
+
+9. solve <expression>
+   → Solves an equation for x
+   Example: solve x**2 - 4
+
+10. Comments
+   → Use # at the start of a line to add comments
+
+Save your file with a `.kry` extension and run:
+python kryth.py filename.kry

@@ -1,0 +1,5 @@
+fn square(x) = x^2
+fn triple(x) = x * 3
+
+a = 5
+square(a) + triple(a)
